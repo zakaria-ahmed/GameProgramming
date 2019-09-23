@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes.iOS/Minutes.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes.iOS/Minutes.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes.iOS/Minutes.iOS.csproj",
+        "projectName": "Minutes.iOS",
+        "projectPath": "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes.iOS/Minutes.iOS.csproj",
+        "packagesPath": "/Users/zakariaahmed/.nuget/packages/",
+        "outputPath": "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/zakariaahmed/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes/Minutes.csproj": {
+                "projectPath": "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes/Minutes.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes/Minutes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes/Minutes.csproj",
+        "projectName": "Minutes",
+        "projectPath": "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes/Minutes.csproj",
+        "packagesPath": "/Users/zakariaahmed/.nuget/packages/",
+        "outputPath": "/Users/zakariaahmed/Github2/Unity/Xamarin1/Minutes/Minutes/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/zakariaahmed/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

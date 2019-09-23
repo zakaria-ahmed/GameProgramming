@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{69A46AAF-5E0C-401C-A592-6FBA6C5D94B6}|Default">
+  <MonoDevelop.Ide.ItemProperties.Minutes.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Minutes/MainPage.xaml">
+    <Files>
+      <File FileName="Minutes/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Minutes/MainPage.xaml" Line="25" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Minutes" expanded="True">
+            <Node name="Minutes" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="NoteEntryEditPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
